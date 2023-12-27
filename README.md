@@ -1,30 +1,16 @@
-# zyqinglong
-青龙自用库
+### 拷贝自：https://github.com/linbailo/zyqinglong
+#### 只使用了didi签到
 
-每个脚本里面都有写有需要的具体东西和变量名
+增加run.sh文件，没有使用青龙面板
+增加抓包-fiddler-5.0.20202.1817.zip 抓包工具
 
-抓包工具+解除固定证书模块[蓝奏云链接](https://linhua.lanzoup.com/iCOcD0yqavmj)
-https://linhua.lanzoup.com/iCOcD0yqavmj
+# 抓包工具使用：
+将 `证书插件里面的两个文件复制到根目录`
+执行`绿化编译器`，ok 了
+可以执行fiddler了
 
-- [x] 目前有
-
-
-  - [x] 星愿森林: 得物（星愿森林）变量后三个可以随便甜，最好按要求吧[大佬的库](https://raw.githubusercontent.com/q7q7q7q7q7q7q7/ziyou/main/得物森林.py)
-  - [x] meituanV3: 美团领劵大额和一些领钱任务[大佬的库](https://raw.githubusercontent.com/leafTheFish/DeathNote/main/meituanV3.js)
-  - [x] elm: 饿了么领劵大额和一些领钱任务[大佬的库](https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elmV3.js)
-  - [x] ddgy: 滴滴果园[大佬的库](https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ddgy.js)
-  - [x] dddc: 滴滴签到打卡领券周末5折、福利金领取、瓜瓜乐活动参加
-  - [x] mt：mt论坛自动签到
-
-## 青龙订阅任务
-```
-名称：自用
-类型：公开仓库
-链接：https://github.com/linbailo/zyqinglong.git
-定时类型：crontab
-定时规则：0 30 * * * *
-文件后缀：py js
-```
-
-## 访问量
-![Visitor Count](https://profile-counter.glitch.me/zyqinglong/count.svg)
+## 抓包方法
+### 手机`wx`登录`didi小程序`
+### 电脑打开抓包工具
+### 电脑 `wx` 打开 `didi小程序`
+### 抓包程序里找到 `api.xxx.cn`，选择后，找到右边 `检查`--> `json` ，里面有token
